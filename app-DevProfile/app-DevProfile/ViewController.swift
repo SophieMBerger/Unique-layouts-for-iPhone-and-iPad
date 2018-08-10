@@ -12,10 +12,12 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var profileLogoImage: UIImageView!
     
+    @IBOutlet weak var customizeBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         profileLogoImage.layer.cornerRadius = 8
+        customizeBtn.layer.cornerRadius = 8
     }
 
     override func didReceiveMemoryWarning() {
